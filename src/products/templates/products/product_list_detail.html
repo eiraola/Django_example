@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+holi Patata
+<h1>{{obj.title}}</h1>
+<p> {% if description != '' %} {{obj.description}}
+    {% else %} Descriprion coming soon
+    {% endif %}
+
+</p>
+{% endblock %}
